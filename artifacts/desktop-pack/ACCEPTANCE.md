@@ -1,4 +1,4 @@
-# 14-item acceptance matrix
+# 12-item acceptance matrix
 
 Pinned runtime: official DSH Desktop / DSH kernel 0.1.7-rc.2.
 
@@ -14,9 +14,7 @@ Pinned runtime: official DSH Desktop / DSH kernel 0.1.7-rc.2.
 | settings-scroll-fix | Settings page scrolls normally |
 | unified-market | Query and install use the current official profile |
 | plugin-manager | Real state is visible and official pluginManager remains available |
-| plugin-shield | Profile checks and backup work |
 | file-drop-eac | A normal file can be saved and added to a conversation |
 | client-file-changes | Changes are shown; one-file restore rejects content conflicts |
-| ui-skin-loader | Loader settings open, default appearance is normal, one skin switches |
 
 Automated checks cover package structure, unique patch entries, manifests, and SHA256. Windows GUI acceptance is still required for the actions above.
