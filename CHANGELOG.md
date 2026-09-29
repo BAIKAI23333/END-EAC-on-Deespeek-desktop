@@ -3,6 +3,14 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与
 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [Unreleased] - 2026-09-29
+
+### Changed
+
+- 交付目标从 `0.1.7-rc.2` 更新为本机 DeepSeek Harness Desktop `0.2.0-rc.2`。
+- 安装说明改为使用本机 `desktop` profile（`%USERPROFILE%\.dsh\profiles\desktop`）。
+- 增加本机运行时盘点文档；插件源码和匹配 `0.2.0-rc.2` 的 tgz 不在本仓库，行为兼容性仍需在上游源码仓重建并验收。
+
 ## [1.1.0] - 2026-09-29
 
 ### Removed
