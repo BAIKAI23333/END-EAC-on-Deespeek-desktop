@@ -1,6 +1,7 @@
 node_modules/
 dist/
 *.log
+*.tgz
 .verify/
 .DS_Store
 Thumbs.db
