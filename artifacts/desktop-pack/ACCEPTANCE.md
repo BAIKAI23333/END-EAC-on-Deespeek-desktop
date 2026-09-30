@@ -1,6 +1,6 @@
 # 12-item acceptance matrix
 
-Pinned runtime: official DSH Desktop / DSH kernel 0.1.7-rc.2.
+Pinned runtime: local DeepSeek Harness Desktop 0.2.0-rc.2.
 
 | Plugin | Required first-release result |
 | --- | --- |
