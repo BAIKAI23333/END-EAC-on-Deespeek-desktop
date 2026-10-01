@@ -10,10 +10,15 @@
 - **本仓归档（Archived）**，不再接收新功能、新版本或内容更新。
   新的安装入口转至 `DSH-EAC/dsh-eac-pack-installer`，整合包来源索引转至 `DSH-EAC/dsh-mojobox`。
 - README 重写为归档说明：补充交付物一览、归档原因、未移交 Mojobox 的原因与归档后边界。
-- 修正文档与产物的事实不一致：`INSTALL.md` 与 `ACCEPTANCE.md` 的目标内核由
-  `0.2.0-rc.2` 改回**实际值 `0.1.7-rc.2`**。此前 README/INSTALL/ACCEPTANCE 记录为
-  `0.2.0-rc.2`，但 v1.1.0 包内 `engines.dsh` 钉的是 `0.1.7-rc.2`，且本仓无
-  `0.2.0-rc.2` 产物。
+- 记录两个并存的**内核目标**产物，明确二者不可混用：
+  `v1.2.0-beta.1`（7 插件 / `0.2.0-rc.2`，`zixin947` fork 托管，待迁入）
+  与 `v1.1.0`（12 插件 / `0.1.7-rc.2`，本仓）。
+  `INSTALL.md` 与 `ACCEPTANCE.md` 由单目标改为双目标表述。
+- 更正前一次提交的误判：`0.2.0-rc.2` 并非「文档与产物不一致」，
+  而是 [PR #1](https://github.com/DSH-EAC/END-EAC-on-Deespeek-desktop/pull/1)（`zixin947`）的**有意更新**，且配套产物真实存在
+  （`5D7062CB444A9CE6ABB2DD7254E494A03D98E09C7E184E3E443A3AC299F87C93`）。
+  该提交曾把 `INSTALL.md` / `ACCEPTANCE.md` 的目标内核改回 `0.1.7-rc.2`，
+  现已恢复并扩展为双目标说明。
 
 ### Notes
 
@@ -22,6 +27,11 @@
   成员中多个 `@dsh-eac/*` 为 EAC 原研私有插件，无独立发布源，薄清单无法引用。
 - Release 资产保留（v1.0.0 / v1.1.0），已发出的下载链接继续有效。
 - `docs/` 内历史交接文档按当时状态冻结，不代表当前事实。
+
+### TODO
+
+- [ ] `v1.2.0-beta.1` 产物从 `zixin947` fork 迁入本仓 Release
+- [ ] 仓库描述更新为归档定位（归档后无法编辑）
 
 ## [Unreleased] - 2026-09-29
 
