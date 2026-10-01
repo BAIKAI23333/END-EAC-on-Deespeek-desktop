@@ -1,6 +1,9 @@
 # 12-item acceptance matrix
 
-Pinned runtime: local DeepSeek Harness Desktop 0.2.0-rc.2.
+Pinned runtime: official DSH Desktop / DSH kernel **0.1.7-rc.2**.
+
+> 本矩阵对应 v1.1.0 包（钉内核 `0.1.7-rc.2`）。本仓已归档，无 `0.2.0-rc.2` 产物；
+> 内核差异见 [`docs/LOCAL-HARNESS-0.2.0-RC2.md`](../../docs/LOCAL-HARNESS-0.2.0-RC2.md)。
 
 | Plugin | Required first-release result |
 | --- | --- |

@@ -3,6 +3,26 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与
 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [Archived] - 2026-10-01
+
+### Changed
+
+- **本仓归档（Archived）**，不再接收新功能、新版本或内容更新。
+  新的安装入口转至 `DSH-EAC/dsh-eac-pack-installer`，整合包来源索引转至 `DSH-EAC/dsh-mojobox`。
+- README 重写为归档说明：补充交付物一览、归档原因、未移交 Mojobox 的原因与归档后边界。
+- 修正文档与产物的事实不一致：`INSTALL.md` 与 `ACCEPTANCE.md` 的目标内核由
+  `0.2.0-rc.2` 改回**实际值 `0.1.7-rc.2`**。此前 README/INSTALL/ACCEPTANCE 记录为
+  `0.2.0-rc.2`，但 v1.1.0 包内 `engines.dsh` 钉的是 `0.1.7-rc.2`，且本仓无
+  `0.2.0-rc.2` 产物。
+
+### Notes
+
+- 归档时未向 `dsh-mojobox` 移交收录：其收录规范只接收 `eac-feature-pack-v1` 薄包，
+  明确排除内嵌插件代码，且归档上限 2 MiB；本仓产物为内嵌 12 插件的厚包。
+  成员中多个 `@dsh-eac/*` 为 EAC 原研私有插件，无独立发布源，薄清单无法引用。
+- Release 资产保留（v1.0.0 / v1.1.0），已发出的下载链接继续有效。
+- `docs/` 内历史交接文档按当时状态冻结，不代表当前事实。
+
 ## [Unreleased] - 2026-09-29
 
 ### Changed
